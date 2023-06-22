@@ -7,7 +7,7 @@ btn.innerHTML = "Back";
 btn.onclick = function () {
 
     const result = confirm('Back to start?');
-    if (result) { location.replace(`./start.html`)
+    if (result) { location.replace(`.index.html`)
 }
 }
 
@@ -34,7 +34,7 @@ btn.innerHTML = "flashlight";
 btn.onclick = function () {
 
     const result = confirm('Do u want to use the flashlight');
-    if (result) { location.replace(`./puzzle1.html`)
+    if (result) { location.replace(`.puzzle1.html`)
 }
 };
 
@@ -51,7 +51,7 @@ btn.onclick = function () {
     console.log(promptcode)
     if(promptcode == code) {
       alert("Code correct");
-      location.replace(`./room2.html`)
+      location.replace(`.room2.html`)
     } else{
         alert("Code incorrect");
     }

@@ -4,7 +4,7 @@ btn.innerHTML = "Back";
 btn.onclick = function () {
 
     const result = confirm('Back to start?');
-    if (result) { location.replace(`./room1.html`)
+    if (result) { location.replace(`.room1.html`)
 }
 }
 
