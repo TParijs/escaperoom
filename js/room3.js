@@ -6,7 +6,7 @@ btn.innerHTML = "back";
 btn.onclick = function () {
 
     const result = confirm('Do u want to go back?');
-    if (result) { location.replace(`.room2.html`)
+    if (result) { location.replace(`room2.html`)
 }
 }
 

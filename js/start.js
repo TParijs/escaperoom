@@ -5,7 +5,7 @@ btn.innerHTML = "Start";
 btn.onclick = function () {
 
     const result = confirm('Do u want to start?');
-    if (result) { location.replace(`.room1.html`)
+    if (result) { location.replace(`room1.html`)
 }
     
 
