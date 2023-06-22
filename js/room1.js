@@ -51,7 +51,7 @@ btn.onclick = function () {
     console.log(promptcode)
     if(promptcode == code) {
       alert("Code correct");
-      location.replace(`.room2.html`)
+      location.replace(`room2.html`)
     } else{
         alert("Code incorrect");
     }
