@@ -1,0 +1,54 @@
+
+button{
+    width: 100px;
+    height: 100px; 
+    font-size: 1.2rem;
+    float: left;
+    margin-left: 0% ;
+    margin-top: -27.8%;
+    
+}
+body{
+    
+    background-color: black;
+}
+header{
+    margin: auto;
+    float: right;
+    font-size: 10rem; 
+}
+header:hover{
+    color: purple;
+}
+
+article{
+    margin: auto;
+    float: right;
+    margin-top: 30%;
+    margin-right: 40%;
+    font-size: 10rem;
+}
+article:hover{
+    color: purple;
+}
+footer{
+    float: right;
+    font-size: 8rem;
+    margin-top: 20%;
+    margin-right: 20%;
+    
+}
+footer:hover{
+    color: purple;
+}
+.sidebar{
+   margin-right: 10%;
+    margin-top: 10% ;
+    font-size: 7.5em ;
+    float: right;
+        
+}
+.sidebar:hover{
+    color: purple;
+    
+}

@@ -1,0 +1,48 @@
+button{
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+body{
+    background-image: url(img/joker_stage.jpg);
+    background-size:200%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    
+}
+.img{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 00px;
+    height: 00px;
+    border-radius: 50%;
+    animation: moving 4s linear infinite;
+}
+    
+@keyframes moving{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    20%{
+        top: 0;
+        left: 1200px;
+    
+    }
+    40%{
+        top: 450px;
+        left: 800px;
+    }
+    60%{
+        top: 0;
+        left: -50px;
+    }
+    80%{
+        top: 450px;
+        left: 800px;
+    }
+    
+}
