@@ -34,7 +34,7 @@ btn.innerHTML = "flashlight";
 btn.onclick = function () {
 
     const result = confirm('Do u want to use the flashlight');
-    if (result) { location.replace(`.puzzle1.html`)
+    if (result) { location.replace(`puzzle1.html`)
 }
 };
 

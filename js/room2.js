@@ -32,7 +32,7 @@ btn.innerHTML = "?";
 btn.onclick = function () {
 
     const result = confirm('Congrats you haveve found the button');
-    if (result) { location.replace(`.room3.html`)
+    if (result) { location.replace(`room3.html`)
 }
 }
 
